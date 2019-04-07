@@ -359,17 +359,13 @@ Configure the Cppcheck GUI version;
 
 ## TODO 2
 
-Create a rule that checks if the function doSomething don't receive any pointer.
+Supress the error id funcArgNamesDifferent.
 
 ## TODO 3
 
-Supress the error id funcArgNamesDifferent.
-
-## TODO 4
-
 Exclude the library PugiXml.
 
-## TODO 5
+## TODO 4
 
 Fix Pathfinding.h and Pathfinding.cpp.
 
