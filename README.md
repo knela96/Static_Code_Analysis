@@ -31,8 +31,11 @@ _Quality Standards_
 
 It uses different methods to detect these errors, which are:
 - **Pattern-Based Static Analysis:** It looks for predefined patterns in the code and detects if they are used and reports them as a possible error.
+
 - **Data Flow Analysis:** It checks for problematic constructions against a set of rules and detect errors such as null pointers and buffer overflows.
+
 - **Control Flow Analysis:** It is an abstract representation on the software that aims to determine the order of instructions separated in blocks and the execution order.
+
 - **Taint Analysis** Detects variables that could be modifiable externally, and be used in functions that could compromise the security of the application, E.g. SQL injection.
 
 # ADVANTAGES vs. DISADVANTAGES
