@@ -28,7 +28,7 @@ This analysis is made against a set of multiple coding guidelines to ensure the 
 
 _Quality Standards_
 
-# TECHNIQUES
+# Techniques
 
 It uses different methods to detect these errors, which are:
 - **Pattern-Based Static Analysis:** It looks for predefined patterns in the code and detects if they are used and reports them as a possible error.
@@ -36,7 +36,7 @@ It uses different methods to detect these errors, which are:
 - **Control Flow Analysis:** It is an abstract representation on the software that aims to determine the order of instructions separated in blocks and the execution order.
 - **Taint Analysis** Detects variables that could be modifiable externally, and be used in functions that could compromise the security of the application, E.g. SQL injection.
 
-# ADVANTAGES vs. DISADVANTAGES
+# Advantages vs. Disadvantages
 
 <table style="width: 80%; border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;" cellpadding="0cm 5.4pt">
 <tbody>
@@ -116,12 +116,12 @@ It uses different methods to detect these errors, which are:
 </tbody>
 </table>
 
-# WHEN SHOULD WE USE IT?
+# When should I Use It?
 During an early stage, the creation phase, just before the unit tests. Using it in this stage allow us to detect a possible vulnerability or bug that can cause a future problem and be harder to remove it, if we had find it in an early stage.
 
 A peer developer, someone other than the developer who wrote the code, should do these tests.
 
-# WHY SHOULD I USE IT?
+# Why Should I Use It?
 
  - **Reliability**
  - **Maintainability**
@@ -177,7 +177,7 @@ These are some of the best tools you can find:
 </tbody>
 </table>
 
-# WHICH TOOL SHOULD I SELECT?
+# Which Tool Should I Select?
 The tools above are compatible with C/C++, and other programming languages. Also if you do a little of research, you’ll find a lot more but probably you might ask “Which tool should I select?”.
 
 Here are some basic tips for you, to select the best one for your project:
@@ -187,11 +187,11 @@ Here are some basic tips for you, to select the best one for your project:
 - How much it cost the tool, is it Free?
 - Does it support Object-oriented programming?
 
-# PROCEDURE OF USAGE
+# Procedure of Usage
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Diagram.png" alt="" height="800" /></div>
 
-# STATIC ANALYSIS TOOL
+# Static Analysis Tool
 
 We are going to use CppChecker as the static code analysis tool. This is because the low rate on finding possible false positives and negatives. 
 
