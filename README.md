@@ -363,12 +363,13 @@ Create a rule that checks if the function doSomething don't receive any pointer.
 
 ## TODO 3
 
-Fix j1Audio.cpp
+Supress the error id funcArgNamesDifferent.
 
 ## TODO 4
 
-Fix Pathfinding.h and Pathfinding.cpp
+Exclude the library PugiXml.
 
 ## TODO 5
 
-Fix j1Map.cpp (remember, if you are 100% sure it is ok, suppress the error)
+Fix Pathfinding.h and Pathfinding.cpp.
+
