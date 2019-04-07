@@ -297,8 +297,7 @@ Download and Install the .exe from the [Official Website](http://cppcheck.source
 Go to the Installation folder and execute _cppcheckgui.exe_. It will appear as the image above.
 
 #### Step 3
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation2.JPG" alt="" width=50%/>
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation3.JPG" alt="" width=50%/>
+<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation2.JPG" alt="" width=50%/><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation3.JPG" alt="" width=50%/>
 
 Click on _File->New Project_, it will ask you where do you want to store the file. I recommend you to put it in the solution folder. 
 
@@ -321,7 +320,7 @@ Exclude all the paths that you don't want to be scanned, and add the suppresions
 Save all changes and go to _"Edit->Preferences"_ and set the configuration as the image above. 
 This is the basic configuration to find almost all errors in your code.
 
-#### Step7
+#### Step 7
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/List_Errors.JPG" alt=""/></div>
 
@@ -349,3 +348,27 @@ Go to _File->Edit Project->Checking tab"_ and you will see in the list of checkb
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation10.JPG" alt=""/></div>
 
 Go to _View->Library Editor_ and open the .cfg you have created. You can create some rules for the functions you insert in this list, saying how many arguments it takes and the expected types they are or if it has to return something or not. If in your code you have the function and it is wrong, it will jump an give you an error.
+
+# TODOs
+
+Download the file and extract it to start the TODO exercises:
+
+## TODO 1
+
+Configure the Cppcheck GUI version; 
+
+## TODO 2
+
+Create a rule that checks if the function doSomething don't receive any pointer.
+
+## TODO 3
+
+Fix j1Audio.cpp
+
+## TODO 4
+
+Fix Pathfinding.h and Pathfinding.cpp
+
+## TODO 5
+
+Fix j1Map.cpp (remember, if you are 100% sure it is ok, suppress the error)
