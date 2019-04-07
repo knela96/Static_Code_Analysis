@@ -197,12 +197,13 @@ We are going to use CppChecker as the static code analysis tool. This is because
 We can use between two versions:
 
 ### Add-on for Visual Studio 
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/VS_Addon.JPG" alt=""/>
+<div style="text-align:center">
+<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/VS_Addon.JPG" alt=""/></div>
 
 The analyzer is thought to be used in the command line, but thanks to a plugin for Visual Studio, we will be able to see it with the interface of the Visual Studio and interactuate with the errors detected.
 
 ### CppCheck GUI
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation1.JPG" alt=""/>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation1.JPG" alt=""/></div>
 
 With the GUI version, it will allow us to see everything much better with a clean interface. But this version has a big problem, the current version hasn't implemented all functionalities of the command line or plugin version. Even that, it will work for the main purpose of identifying the errors in the code.
 
@@ -225,7 +226,8 @@ Download the add-on from this [ Repository link](https://github.com/VioletGiraff
 Open Visual Studio and you will notice that has been added new features in the "_Tool_" section.
 Click on the _Tools -> Cppcheck settings_
 
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs1.JPG" alt=""/>
+<div style="text-align:center">
+<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs1.JPG" alt=""/></div>
 
 #### Step 4
 
@@ -338,7 +340,7 @@ Create a file named _"config.cfg"_ in the folder where is located your solution 
 ```
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation9.JPG" alt=""/></div>
 
-Go to _File->Edit Project->Checking tab"_ and you will see in the list of checkboxes that has appeared one named exactly as the file, ensure to check it, to make the analyzer use your rules.
+Go to _File->Edit Project->Checking tab"_ and you will see in the list of checkboxes that has appeared one named exactly as the file, ensure to check it to make the analyzer use your rules.
 
 #### Step 10
 
