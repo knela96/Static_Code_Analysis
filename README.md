@@ -1,4 +1,5 @@
 
+
 Hi my name is Èric Canela and I'm a student of UPC Tech Talent Center from Barcelona. Today I will introduce you an interesting and useful guide about Static Analysis, and explain why you should use it when developming any game or application.
 
 When we are developing a program there are a lot of pressure and sometimes the timelines are too heavy, and the developers can’t ensure a good quality on the code, creating more bugs and slowing down de current development. To ensure that this do not happen, exist some amazing tools to make it easier and avoid possible problems in the future.
@@ -103,13 +104,13 @@ It uses different methods to detect these errors, which are:
 <td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
   <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Variable Use(undeclared, unused)</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
 </tr>
 <tr>
 <td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Uncalled functions</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
 </tr>
 </tbody>
 </table>
@@ -212,22 +213,33 @@ Follow these steps to configure the Add-on for Visual Studio or the GUI version:
 
 _To use the addon first you will have to download CppCheck and install on your computer_
 #### Step 1
+
 Download and Install the .exe from the [Official Website](http://cppcheck.sourceforge.net/), compatible with the version of your SO.
+
 #### Step 2
+
 Download the add-on from this [ Repository link](https://github.com/VioletGiraffe/cppcheck-vs-addin/releases/tag/1.3.6) and install it.
+
 #### Step 3
+
 Open Visual Studio and you will notice that has been added new features in the "_Tool_" section.
 Click on the _Tools -> Cppcheck settings_
 
 <img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs1.JPG" alt=""/>
 
 #### Step 4
+
 It will appear the next screen, set the same configuration as the next image.
 
 <img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs2.JPG" alt=""/>
 
 #### Step 5
-Execute the first scan on your project by clicking on "_Tools -> Check current project with cppcheck_"
+
+Execute the first scan on your project by clicking on "_Tools -> Check current project with cppcheck_".
+It will ask you to find _cppchecker.exe_, it whould be in "C:\Program Files\Cppcheck\".
+
+<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs0.JPG" alt=""/>
+
 You will see that has appeared a new tab at the bottom named "_Cppcheck analysis results_". Here will appear the warnings and errors that you have in your code and has to be fixed.
 
 <img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/VS_Addon.JPG" alt=""/>
@@ -250,7 +262,7 @@ Here you will see the suppressions that you have added:
    - __unreachableCode:*p2SString.h:155__ will hide this error from the file p2SString.h at the line 155.
    
 - **Files excluded from check:** This will deny the analyzer to scan the file.
-     -  __p2List*.h$__ will deny the anayliser to scan it.
+     -  __p2List*.h$__ will exclude the file p2List to be scanned.
 
 - **Excluded include paths:** Will exclude the path inserted, very useful for big libraries that don't need to be scanned and make the scan faster.
     - __.* PugiXml. *__ will exclude the folder PugiXmL to scan all the files inside. The root folder is the one where is located the solution.
