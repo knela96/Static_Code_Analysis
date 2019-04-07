@@ -297,7 +297,8 @@ Download and Install the .exe from the [Official Website](http://cppcheck.source
 Go to the Installation folder and execute _cppcheckgui.exe_. It will appear as the image above.
 
 #### Step 3
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation2.JPG" alt="" width=50%/><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation3.JPG" alt="" width=50%/></div>
+<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation2.JPG" alt="" width=50%/>
+<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation3.JPG" alt="" width=50%/>
 
 Click on _File->New Project_, it will ask you where do you want to store the file. I recommend you to put it in the solution folder. 
 
