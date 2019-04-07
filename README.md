@@ -351,7 +351,7 @@ Go to _View->Library Editor_ and open the .cfg you have created. You can create 
 
 # TODOs
 
-Download the Handout from the [Releases](https://github.com/knela96/Static_Code_Analysis/releases/tag/0.1) and extract it to start the TODO exercises:
+Download the [Handout from the Releases](https://github.com/knela96/Static_Code_Analysis/releases/tag/0.1) and extract it to start the TODO exercises:
 
 ## TODO 1
 
