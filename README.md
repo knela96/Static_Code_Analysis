@@ -253,6 +253,6 @@ Here you will see the suppressions that you have added:
      -  __p2List*.h$__ will deny the anayliser to scan it.
 
 - **Excluded include paths:** Will exclude the path inserted, very useful for big libraries that don't need to be scanned and make the scan faster.
-    - .* PugiXml. * will exclude the folder PugiXmL to scan all the files inside. The root folder is the one where is located the solution.
+    - __.* PugiXml. *__ will exclude the folder PugiXmL to scan all the files inside. The root folder is the one where is located the solution.
  
  Once you have configured everything you only need to save and do more tests.
