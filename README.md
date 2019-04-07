@@ -1,4 +1,5 @@
 
+
 Hi my name is Èric Canela and I'm a student of UPC Tech Talent Center from Barcelona. Today I will introduce you an interesting and useful guide about Static Analysis, and explain why you should use it when developming any game or application.
 
 When we are developing a program there are a lot of pressure and sometimes the timelines are too heavy, and the developers can’t ensure a good quality on the code, creating more bugs and slowing down de current development. To ensure that this do not happen, exist some amazing tools to make it easier and avoid possible problems in the future.
@@ -30,8 +31,11 @@ _Quality Standards_
 
 It uses different methods to detect these errors, which are:
 - **Pattern-Based Static Analysis:** It looks for predefined patterns in the code and detects if they are used and reports them as a possible error.
+
 - **Data Flow Analysis:** It checks for problematic constructions against a set of rules and detect errors such as null pointers and buffer overflows.
+
 - **Control Flow Analysis:** It is an abstract representation on the software that aims to determine the order of instructions separated in blocks and the execution order.
+
 - **Taint Analysis** Detects variables that could be modifiable externally, and be used in functions that could compromise the security of the application, E.g. SQL injection.
 
 # ADVANTAGES vs. DISADVANTAGES
@@ -39,77 +43,77 @@ It uses different methods to detect these errors, which are:
 <table style="width: 80%; border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;" cellpadding="0cm 5.4pt">
 <tbody>
 <tr>
-<td style="width: 567.05pt; border: solid #4472C4 1.0pt; background: #2F5496; padding: 0cm 5.4pt 0cm 5.4pt;" colspan="2" width="756">
+<td style="width: 567.05pt; border: solid #4472C4 1.0pt; background: #2F5496; " colspan="2" width="756">
 <p style="text-align: center; line-height: normal;"><strong><span style="color: white;">Static Code Analysis</span></strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #A8D08D; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
+<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #A8D08D; " width="392">
 <p style="text-align: center; line-height: normal; color: black;"><strong>Advantages</strong></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: red; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: red; " width="364">
 <p style="text-align: center; line-height: normal; color: black;"><strong>Limitations</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9;  vertical-align: middle;" width="392">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">It can find weaknesses in the code at the exact location.</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; vertical-align: middle;" width="364">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Time-consuming if conducted manually.</span></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9;  vertical-align: middle;" width="392">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Easy to use for developers trained in that programing language</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5;  vertical-align: middle;" width="364">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Production of false positives and false negatives.</span></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; vertical-align: middle;" width="392">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Problems detected earlier in the production phase</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5;  vertical-align: middle;" width="364">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Need too much personal to do the tests</span></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9;  vertical-align: middle;" width="392">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Allow to fix the problems earlier</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5;vertical-align: middle;" width="364">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Do not find all the problems</span></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; vertical-align: middle;" width="392">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Fast development cycle if automated tools are used.</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5;  vertical-align: middle;" width="364">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Only detect problems stipulated by the quality guidelines</span></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
-  <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Unreachable Code</span></p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9;  vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Unreachable Code</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5;  vertical-align: middle;" width="364">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Do not find vulnerabilities in the runtime environment</span></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
-  <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Variable Use(undeclared, unused)</span></p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9;  vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Variable Use(undeclared, unused)</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5;  vertical-align: middle;" width="364"> </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; vertical-align: middle;" width="392">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Uncalled functions</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; vertical-align: middle;" width="364"> </td>
 </tr>
 </tbody>
 </table>
@@ -187,7 +191,7 @@ Here are some basic tips for you, to select the best one for your project:
 
 ## PROCEDURE OF USAGE
 
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Diagram.png" alt="" height="800" />
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Diagram.png" alt="" height="800" /></div>
 
 ## STATIC ANALYSIS TOOL
 
@@ -212,22 +216,33 @@ Follow these steps to configure the Add-on for Visual Studio or the GUI version:
 
 _To use the addon first you will have to download CppCheck and install on your computer_
 #### Step 1
+
 Download and Install the .exe from the [Official Website](http://cppcheck.sourceforge.net/), compatible with the version of your SO.
+
 #### Step 2
+
 Download the add-on from this [ Repository link](https://github.com/VioletGiraffe/cppcheck-vs-addin/releases/tag/1.3.6) and install it.
+
 #### Step 3
+
 Open Visual Studio and you will notice that has been added new features in the "_Tool_" section.
 Click on the _Tools -> Cppcheck settings_
 
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs1.JPG" alt=""/>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs1.JPG" alt=""/></div>
 
 #### Step 4
+
 It will appear the next screen, set the same configuration as the next image.
 
 <img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs2.JPG" alt=""/>
 
 #### Step 5
-Execute the first scan on your project by clicking on "_Tools -> Check current project with cppcheck_"
+
+Execute the first scan on your project by clicking on "_Tools -> Check current project with cppcheck_".
+It will ask you to find _cppchecker.exe_, it whould be in "C:\Program Files\Cppcheck\".
+
+<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs0.JPG" alt=""/>
+
 You will see that has appeared a new tab at the bottom named "_Cppcheck analysis results_". Here will appear the warnings and errors that you have in your code and has to be fixed.
 
 <img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/VS_Addon.JPG" alt=""/>
@@ -250,7 +265,7 @@ Here you will see the suppressions that you have added:
    - __unreachableCode:*p2SString.h:155__ will hide this error from the file p2SString.h at the line 155.
    
 - **Files excluded from check:** This will deny the analyzer to scan the file.
-     -  __p2List*.h$__ will deny the anayliser to scan it.
+     -  __p2List*.h$__ will exclude the file p2List to be scanned.
 
 - **Excluded include paths:** Will exclude the path inserted, very useful for big libraries that don't need to be scanned and make the scan faster.
     - __.* PugiXml. *__ will exclude the folder PugiXmL to scan all the files inside. The root folder is the one where is located the solution.
