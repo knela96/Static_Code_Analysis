@@ -278,7 +278,7 @@ If you want to create your own rules, you will have to do the **Steps 9 and 10**
 
 Go to _"Tools->cppcheck settings"_ and add the next line inside _Additional arguments_
 ```
---template=config.cfg
+--library=config.cfg
 ```
 
 
@@ -332,7 +332,7 @@ In this version of CppCheck as I said before, it is limited, to supress a messag
 
 #### Step 9
 
-Create a file named _"config.cfg"_ in the folder that is located your solution and add this line of code
+Create a file named _"config.cfg"_ in the folder where is located your solution and add this line of code
 ```
 <?xml version="1.0"?>
 ```
