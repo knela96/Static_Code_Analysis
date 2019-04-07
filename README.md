@@ -191,7 +191,7 @@ Here are some basic tips for you, to select the best one for your project:
 
 ## PROCEDURE OF USAGE
 
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Diagram.png" alt="" height="800" />
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Diagram.png" alt="" height="800" /></div>
 
 ## STATIC ANALYSIS TOOL
 
@@ -228,7 +228,7 @@ Download the add-on from this [ Repository link](https://github.com/VioletGiraff
 Open Visual Studio and you will notice that has been added new features in the "_Tool_" section.
 Click on the _Tools -> Cppcheck settings_
 
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs1.JPG" alt=""/>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs1.JPG" alt=""/></div>
 
 #### Step 4
 
