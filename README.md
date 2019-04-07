@@ -27,86 +27,89 @@ This analysis is made against a set of multiple coding guidelines to ensure the 
 _Quality Standards_
 
 # TECHNIQUES
+
 It uses different methods to detect these errors, which are:
 - **Pattern-Based Static Analysis:** It looks for predefined patterns in the code and detects if they are used and reports them as a possible error.
 - **Data Flow Analysis:** It checks for problematic constructions against a set of rules and detect errors such as null pointers and buffer overflows.
 - **Control Flow Analysis:** It is an abstract representation on the software that aims to determine the order of instructions separated in blocks and the execution order.
 - **Taint Analysis** Detects variables that could be modifiable externally, and be used in functions that could compromise the security of the application, E.g. SQL injection.
+
 # ADVANTAGES vs. DISADVANTAGES
-<table width="0">
+
+<table style="width: 80%; border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;" cellpadding="0cm 5.4pt">
 <tbody>
 <tr>
-<td colspan="2" width="756">
-<span style="color:blue"><p><strong>Static Code Analysis</strong></p></span>
-  </td>
-</tr>
-<tr>
-<td width="392">
-<p><strong><em>Advantages</strong></em></p>
-</td>
-<td width="364">
-<p><strong><em>Limitations</strong></em></p>
+<td style="width: 567.05pt; border: solid #4472C4 1.0pt; background: #2F5496; padding: 0cm 5.4pt 0cm 5.4pt;" colspan="2" width="756">
+<p style="text-align: center; line-height: normal;"><strong><span style="color: white;">Static Code Analysis</span></strong></p>
 </td>
 </tr>
 <tr>
-<td width="392">
-<p>It can find weaknesses in the code at the exact location.</p>
+<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #A8D08D; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
+<p style="text-align: center; line-height: normal; color: black;"><strong>Advantages</strong></p>
 </td>
-<td width="364">
-<p>Time-consuming if conducted manually.</p>
-</td>
-</tr>
-<tr>
-<td width="392">
-<p>Easy to use for developers trained in that programing language</p>
-</td>
-<td width="364">
-<p>Production of false positives and false negatives.</p>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: red; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">
+<p style="text-align: center; line-height: normal; color: black;"><strong>Limitations</strong></p>
 </td>
 </tr>
 <tr>
-<td width="392">
-<p>Problems detected earlier in the production phase</p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">It can find weaknesses in the code at the exact location.</span></p>
 </td>
-<td width="364">
-<p>Need too much personal to do the tests</p>
-</td>
-</tr>
-<tr>
-<td width="392">
-<p>Allow to fix the problems earlier</p>
-</td>
-<td width="364">
-<p>Do not find all the problems</p>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Time-consuming if conducted manually.</span></p>
 </td>
 </tr>
 <tr>
-<td width="392">
-<p>Fast development cycle if automated tools are used.</p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Easy to use for developers trained in that programing language</span></p>
 </td>
-<td width="364">
-<p>Only detect problems stipulated by the quality guidelines</p>
-</td>
-</tr>
-<tr>
-<td width="392">
-<p>Unreachable code</p>
-</td>
-<td width="364">
-<p>Do not find vulnerabilities in the runtime environment</p>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Production of false positives and false negatives.</span></p>
 </td>
 </tr>
 <tr>
-<td width="392">
-<p>Variable Use(undeclared, unused)</p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Problems detected earlier in the production phase</span></p>
 </td>
-<td width="364">&nbsp;</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Need too much personal to do the tests</span></p>
+</td>
 </tr>
 <tr>
-<td width="392">
-<p>Uncalled functions</p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Allow to fix the problems earlier</span></p>
 </td>
-<td width="364">&nbsp;</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Do not find all the problems</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Fast development cycle if automated tools are used.</span></p>
+</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Only detect problems stipulated by the quality guidelines</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+  <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Unreachable Code</span></p>
+</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Do not find vulnerabilities in the runtime environment</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+  <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Variable Use(undeclared, unused)</span></p>
+</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
+</tr>
+<tr>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Uncalled functions</span></p>
+</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
 </tr>
 </tbody>
 </table>
@@ -183,6 +186,7 @@ Here are some basic tips for you, to select the best one for your project:
 - Does it support Object-oriented programming?
 
 ## PROCEDURE OF USAGE
+
 <img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Diagram.png" alt="" height="800" />
 
 ## STATIC ANALYSIS TOOL
@@ -232,3 +236,23 @@ You will see that has appeared a new tab at the bottom named "_Cppcheck analysis
 To add filters and avoid some errors to appear, you only need to _right-click_ on the message and it will appear some options, select the one that you need.
 
 <img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs3.JPG" alt=""/>
+
+#### Step6
+To filter libraries or other files and avoid the analyzer to check them alway you execute the scan, go to "_Tools -> Cppcheck settings_->Edit Global Supressions.
+
+Here you will see the suppressions that you have added:
+
+<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs4.JPG" alt=""/>
+
+- **Cppcheck suppressions:** Are all the suppressions/filters that you have activated for the messages, errors/warnings or exact errors in a line of code.
+   - __*:*p2List.h__  to hide all warnings from the file.
+   - __variableScope__ will hide all warnings from this rule, you can check all the possible rules in [this link](https://github.com/knela96/Static-Code-Analysis/blob/master/errorlist.xml).
+   - __unreachableCode:*p2SString.h:155__ will hide this error from the file p2SString.h at the line 155.
+   
+- **Files excluded from check:** This will deny the analyzer to scan the file.
+     -  __p2List*.h$__ will deny the anayliser to scan it.
+
+- **Excluded include paths:** Will exclude the path inserted, very useful for big libraries that don't need to be scanned and make the scan faster.
+    - __.* PugiXml. *__ will exclude the folder PugiXmL to scan all the files inside. The root folder is the one where is located the solution.
+ 
+ Once you have configured everything you only need to save and do more tests.
