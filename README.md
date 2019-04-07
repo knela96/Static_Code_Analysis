@@ -355,7 +355,7 @@ Download the [Handout from the Releases](https://github.com/knela96/Static_Code_
 
 ## TODO 1
 
-Configure the Cppcheck GUI version; 
+Configure the Cppcheck GUI version.
 
 ## TODO 2
 
