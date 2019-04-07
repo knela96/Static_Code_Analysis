@@ -36,7 +36,7 @@ It uses different methods to detect these errors, which are:
 
 # ADVANTAGES vs. DISADVANTAGES
 
-<table style="width:80%; border-collapse: collapse; border: none;">
+<table style="width: 80%; border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;" cellpadding="0cm 5.4pt">
 <tbody>
 <tr>
 <td style="width: 567.05pt; border: solid #4472C4 1.0pt; background: #2F5496; padding: 0cm 5.4pt 0cm 5.4pt;" colspan="2" width="756">
@@ -45,71 +45,71 @@ It uses different methods to detect these errors, which are:
 </tr>
 <tr>
 <td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #A8D08D; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
-<p style="text-align: center; line-height: normal;"><strong>Advantages</strong></p>
+<p style="text-align: center; line-height: normal; color: black;"><strong>Advantages</strong></p>
 </td>
 <td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: red; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">
-<p style="text-align: center; line-height: normal;"><strong>Limitations</strong></p>
+<p style="text-align: center; line-height: normal; color: black;"><strong>Limitations</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #E2EFD9; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">It can find weaknesses in the code at the exact location.</span></p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">It can find weaknesses in the code at the exact location.</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: #FBE4D5; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Time-consuming if conducted manually.</span></p>
-</td>
-</tr>
-<tr>
-<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #E2EFD9; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Easy to use for developers trained in that programing language</span></p>
-</td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: #FBE4D5; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Production of false positives and false negatives.</span></p>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Time-consuming if conducted manually.</span></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #E2EFD9; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Problems detected earlier in the production phase</span></p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Easy to use for developers trained in that programing language</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: #FBE4D5; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Need too much personal to do the tests</span></p>
-</td>
-</tr>
-<tr>
-<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #E2EFD9; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Allow to fix the problems earlier</span></p>
-</td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: #FBE4D5; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Do not find all the problems</span></p>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Production of false positives and false negatives.</span></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #E2EFD9; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Fast development cycle if automated tools are used.</span></p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Problems detected earlier in the production phase</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: #FBE4D5; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Only detect problems stipulated by the quality guidelines</span></p>
-</td>
-</tr>
-<tr>
-<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #E2EFD9; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
-<p style="margin-bottom: .0001pt; text-align: center; line-height: normal;">Unreachable code</p>
-</td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: #FBE4D5; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Do not find vulnerabilities in the runtime environment</span></p>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Need too much personal to do the tests</span></p>
 </td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #E2EFD9; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
-<p style="margin-bottom: .0001pt; text-align: center; line-height: normal;">Variable Use(undeclared, unused)</p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Allow to fix the problems earlier</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: #FBE4D5; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">&nbsp;</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Do not find all the problems</span></p>
+</td>
 </tr>
 <tr>
-<td style="width: 293.85pt; border-top: none; border-left: solid #8EAADB 1.0pt; border-bottom: solid #8EAADB 1.0pt; border-right: none; background: #E2EFD9; padding: 0cm 5.4pt 0cm 5.4pt;" width="392">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif;">Uncalled functions</span></p>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Fast development cycle if automated tools are used.</span></p>
 </td>
-<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: solid #8EAADB 1.0pt; border-right: solid #8EAADB 1.0pt; background: #FBE4D5; padding: 0cm 5.4pt 0cm 5.4pt;" width="364">&nbsp;</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Only detect problems stipulated by the quality guidelines</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+  <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Unreachable Code</span></p>
+</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Do not find vulnerabilities in the runtime environment</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+  <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Variable Use(undeclared, unused)</span></p>
+</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
+</tr>
+<tr>
+<td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Uncalled functions</span></p>
+</td>
+<td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364"> </td>
 </tr>
 </tbody>
 </table>
