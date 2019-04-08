@@ -350,23 +350,26 @@ Go to _View->Library Editor_ and open the .cfg you have created. You can create 
 
 Download the [Handout from the Releases](https://github.com/knela96/Static_Code_Analysis/releases/tag/0.1) and extract it to start the TODO exercises:
 
+You can check the [Solution](https://github.com/knela96/Static_Code_Analysis/releases/tag/0.2) of these TODOs exercises in the [Releases page](https://github.com/knela96/Static_Code_Analysis/releases).
+
 ## TODO 1
 
 Configure the Cppcheck GUI version.
 
 ## TODO 2
 
-Supress the error id funcArgNamesDifferent.
+- Supress the error id funcArgNamesDifferent 
+- Supress the error variableScope from line 56 of the j1Scene1.cpp
 
 ## TODO 3
 
-Exclude the library PugiXml and j1App path.
+- Exclude the library PugiXml path
+- Exclude j1App files
 
 ## TODO 4
 
 Fix Pathfinding.h and Pathfinding.cpp.
 
-You can check the [Solution](https://github.com/knela96/Static_Code_Analysis/releases/tag/0.2) of these TODOs exercises in the [Releases page](https://github.com/knela96/Static_Code_Analysis/releases).
 
 # References Links
 
