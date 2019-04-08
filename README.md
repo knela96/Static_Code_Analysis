@@ -1,4 +1,4 @@
-Hi my name is [Èric Canela](https://www.linkedin.com/in/%C3%A8ric-canela-sol-6b7624158/) and I'm a student of 2nd Year of UPC Tech Talent Center from Barcelona under supervision of the lecturer [Ricard Pillosu](https://www.linkedin.com/in/ricardpillosu/?originalSubdomain=es), and today I will introduce you an interesting and useful guide about Static Analysis, for the 2nd Year Project, and I will explain why you should use it when developing any game or application.
+Welcome to [my Github](https://github.com/knela96), my name is [Èric Canela](https://www.linkedin.com/in/%C3%A8ric-canela-sol-6b7624158/) and I'm a student of 2nd Year of UPC Tech Talent Center from Barcelona under supervision of the lecturer [Ricard Pillosu](https://www.linkedin.com/in/ricardpillosu/?originalSubdomain=es), and today I will introduce you an interesting and useful guide about Static Analysis, for the 2nd Year Project, and I will explain why you should use it when developing any game or application.
 
 When we are developing a program there is a lot of pressure and sometimes the timelines are too heavy, and the developers can’t ensure a good quality on the code, creating more bugs and slowing down de current development. To ensure that this do not happen, exist some amazing tools to make it easier and avoid possible problems in the future.
 
@@ -366,4 +366,4 @@ Exclude the library PugiXml.
 
 Fix Pathfinding.h and Pathfinding.cpp.
 
-You can check the [Solution](https://github.com/knela96/Static_Code_Analysis/releases/tag/0.2) of these TODOs in the Releases.
+You can check the [Solution](https://github.com/knela96/Static_Code_Analysis/releases/tag/0.2) of these TODOs exercises in the [Releases page](https://github.com/knela96/Static_Code_Analysis/releases).
