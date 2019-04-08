@@ -255,7 +255,7 @@ To filter libraries or other files and avoid the analyzer to check them alway yo
 
 Here you will see the suppressions that you have added:
 
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Installation_vs4.JPG" alt=""/>
+<img src="https://raw.githubusercontent.com/knela96/Static_Code_Analysis/master/Images/Installation_vs4.JPG" alt=""/>
 
 - **Cppcheck suppressions:** Are all the suppressions/filters that you have activated for the messages, errors/warnings or exact errors in a line of code.
    - __*:*p2List.h__  to hide all warnings from the file.
