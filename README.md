@@ -1,4 +1,5 @@
-Welcome to [my Github](https://github.com/knela96), my name is [Èric Canela](https://www.linkedin.com/in/%C3%A8ric-canela-sol-6b7624158/) and I'm a student of 2nd Year of UPC Tech Talent Center from Barcelona under supervision of the lecturer [Ricard Pillosu](https://www.linkedin.com/in/ricardpillosu/?originalSubdomain=es), and today I will introduce you an interesting and useful guide about Static Analysis, for the 2nd Year Project, and I will explain why you should use it when developing any game or application.
+Welcome to [my Github](https://github.com/knela96), my name is [Èric Canela](https://www.linkedin.com/in/%C3%A8ric-canela-sol-6b7624158/) and I'm a student of 2nd Year of UPC Tech Talent Center from Barcelona under supervision of the lecturer [Ricard Pillosu](https://www.linkedin.com/in/ricardpillosu/?originalSubdomain=es).
+Today I will introduce you an interesting and useful guide about Static Analysis, for the 2nd Year Project subject, and I will explain why you should use it when developing any game or application.
 
 When we are developing a program there is a lot of pressure and sometimes the timelines are too heavy, and the developers can’t ensure a good quality on the code, creating more bugs and slowing down de current development. To ensure that this do not happen, exist some amazing tools to make it easier and avoid possible problems in the future.
 
@@ -175,7 +176,7 @@ These are some of the best tools you can find:
 </table>
 
 # Which Tool Should I Select?
-The tools above are compatible with C/C++, and other programming languages. Also if you do a little of research, you’ll find a lot more but probably you might ask “Which tool should I select?”.
+The tools above are compatible with C/C++. Also, if you do a little of research, you’ll find a lot more but probably you might ask “Which tool should I select?”.
 
 Here are some basic tips for you, to select the best one for your project:
 - Must support your programming language.
@@ -190,7 +191,7 @@ Here are some basic tips for you, to select the best one for your project:
 
 # Static Analysis Tool
 
-We are going to use CppChecker as the static code analysis tool. This is because the low rate on finding possible false positives and negatives. 
+We are going to use CppChecker as the static code analysis tool. This is because the low rate on finding possible false positives and negatives. But it is strongly recommended to use more than one, to detect all possible errors that one tool coldn't find.
 
 We can use between two versions:
 
@@ -358,29 +359,29 @@ Configure the Cppcheck GUI version.
 
 ## TODO 2
 
-- Supress the error id funcArgNamesDifferent 
-- Supress the error variableScope from line 56 of the j1Scene1.cpp
+- Supress the error id **funcArgNamesDifferent** 
+- Supress the error **variableScope** from line **56** of the **j1Scene1.cpp**
 
 <details><summary>Solution</summary>
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Solution2.JPG" alt=""/>
-</detail>
+<img src="https://raw.githubusercontent.com/knela96/Static_Code_Analysis/master/Images/Solution2.JPG" alt=""/>
+</details>
   
 
 ## TODO 3
 
 - Exclude the path of PugiXml library
-- Exclude j1App files
+- Exclude **j1App** files
 
 <details><summary>Solution</summary>
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Solution3.JPG" alt=""/>
-</detail>
+<img src="https://raw.githubusercontent.com/knela96/Static_Code_Analysis/master/Images/Solution3.JPG" alt=""/>
+</details>
 
 ## TODO 4
 
 Fix Pathfinding.h and Pathfinding.cpp.
 
 
-# References Links
+# Reference Links
 
 [https://www.perforce.com/blog/qac/what-static-code-analysis](https://www.perforce.com/blog/qac/what-static-code-analysis)
 
