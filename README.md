@@ -367,3 +367,15 @@ Exclude the library PugiXml.
 Fix Pathfinding.h and Pathfinding.cpp.
 
 You can check the [Solution](https://github.com/knela96/Static_Code_Analysis/releases/tag/0.2) of these TODOs exercises in the [Releases page](https://github.com/knela96/Static_Code_Analysis/releases).
+
+# References Links
+
+[https://www.perforce.com/blog/qac/what-static-code-analysis](https://www.perforce.com/blog/qac/what-static-code-analysis)
+
+[https://www.perforce.com/blog/qac/how-static-code-analysis-works](https://www.perforce.com/blog/qac/how-static-code-analysis-works)
+
+[https://www.owasp.org/index.php/Static_Code_Analysis](https://www.owasp.org/index.php/Static_Code_Analysis)
+
+[https://www.kiuwan.com/blog/static-analysis-in-automated-software-quality-tests/](https://www.kiuwan.com/blog/static-analysis-in-automated-software-quality-tests/)
+
+[https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis#C,_C++](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis#C,_C++)
