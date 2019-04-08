@@ -366,3 +366,4 @@ Exclude the library PugiXml.
 
 Fix Pathfinding.h and Pathfinding.cpp.
 
+You can check the [Solution](https://github.com/knela96/Static_Code_Analysis/releases/tag/0.2) of these TODOs in the Releases.
