@@ -176,7 +176,7 @@ These are some of the best tools you can find:
 </table>
 
 # Which Tool Should I Select?
-The tools above are compatible with C/C++, and other programming languages. Also if you do a little of research, you’ll find a lot more but probably you might ask “Which tool should I select?”.
+The tools above are compatible with C/C++. Also, if you do a little of research, you’ll find a lot more but probably you might ask “Which tool should I select?”.
 
 Here are some basic tips for you, to select the best one for your project:
 - Must support your programming language.
