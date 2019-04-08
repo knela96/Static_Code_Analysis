@@ -263,12 +263,12 @@ Here you will see the suppressions that you have added:
    - __unreachableCode:*p2SString.h:155__ will hide this error from the file p2SString.h at the line 155.
    
 - **Files excluded from check:** This will deny the analyzer to scan the file.
-     -  __p2List*.h$__ will exclude the file p2List to be scanned.
+     -  __j1Input\.h$__ will exclude the file j1Input to be scanned.
+     _(IMPORTANT: headers not supported)_
 
 - **Excluded include paths:** Will exclude the path inserted, very useful for big libraries that don't need to be scanned and make the scan faster.
-    - __.* PugiXml. *__ will exclude the folder PugiXmL to scan all the files inside. The root folder is the one where is located the solution.
  
- Once you have configured everything you only need to save and do more tests.
+Once you have configured everything you only need to save and do more tests.
  
 ### Step 8 
 If you want to create your own rules, you will have to do the **Steps 9 and 10** of the **CppCheck GUI Configuration**, and when you create the file, save it inside the **_cppcheck.exe_** directory.
