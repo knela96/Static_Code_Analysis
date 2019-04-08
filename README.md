@@ -360,7 +360,7 @@ Supress the error id funcArgNamesDifferent.
 
 ## TODO 3
 
-Exclude the library PugiXml.
+Exclude the library PugiXml and j1App path.
 
 ## TODO 4
 
