@@ -369,7 +369,7 @@ Configure the Cppcheck GUI version.
 
 ## TODO 3
 
-- Exclude the **path of PugiXml** library
+- Exclude the path of PugiXml library
 - Exclude **j1App** files
 
 <details><summary>Solution</summary>
