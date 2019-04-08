@@ -362,7 +362,7 @@ Configure the Cppcheck GUI version.
 - Supress the error variableScope from line 56 of the j1Scene1.cpp
 
 <details><summary>Solution</summary>
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Solution2.JPG" alt=""/>
+<img src="https://raw.githubusercontent.com/knela96/Static_Code_Analysis/master/Images/Solution2.JPG" alt=""/>
 </details>
   
 
@@ -372,7 +372,7 @@ Configure the Cppcheck GUI version.
 - Exclude j1App files
 
 <details><summary>Solution</summary>
-<img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Solution3.JPG" alt=""/>
+<img src="https://raw.githubusercontent.com/knela96/Static_Code_Analysis/master/Images/Solution3.JPG" alt=""/>
 </details>
 
 ## TODO 4
