@@ -61,7 +61,7 @@ It uses different methods to detect these errors, which are:
 </tr>
 <tr>
 <td style="width: 293.85pt; border-top: none; border-left: 1pt solid #8eaadb; border-bottom: 1pt solid #8eaadb; border-right: none; background: #e2efd9; padding: 0cm 5.4pt; vertical-align: middle;" width="392">
-<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Easy to use for developers trained in that programing language</span></p>
+<p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">High speed analysis</span></p>
 </td>
 <td style="width: 273.2pt; border-top: none; border-left: none; border-bottom: 1pt solid #8eaadb; border-right: 1pt solid #8eaadb; background: #fbe4d5; padding: 0cm 5.4pt; vertical-align: middle;" width="364">
 <p style="text-align: center;"><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: black;">Production of false positives and false negatives.</span></p>
@@ -136,11 +136,11 @@ These are some of the best tools you can find:
 <table>
 <tbody>
 <tr>
-<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Lint.jpg" alt="" width="120" /></td>
+<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Lint.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/helix.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/codesonar.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/visual.png" alt="" width="120" /></td>
-<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/goanna.jpg" alt="" width="120" /></td>
+<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/goanna.png" alt="" width="120" /></td>
 </tr>
 <tr>
 <td><em>PC-LINT</em></td>
@@ -161,7 +161,7 @@ These are some of the best tools you can find:
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/cpplint.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Parasoft.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/eclipse.png" alt="" width="120" /></td>
-<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/frama.jpg" alt="" width="120" /></td>
+<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/frama.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/clang.png" alt="" width="120" /></td>
 </tr>
 <tr>
