@@ -381,7 +381,7 @@ Configure the Cppcheck GUI version.
 Fix Pathfinding.h and Pathfinding.cpp.
 
 
-# References Links
+# Reference Links
 
 [https://www.perforce.com/blog/qac/what-static-code-analysis](https://www.perforce.com/blog/qac/what-static-code-analysis)
 
