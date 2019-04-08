@@ -363,7 +363,7 @@ Configure the Cppcheck GUI version.
 
 <details><summary>Solution</summary>
 <img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Solution2.JPG" alt=""/>
-</detail>
+</details>
   
 
 ## TODO 3
@@ -373,7 +373,7 @@ Configure the Cppcheck GUI version.
 
 <details><summary>Solution</summary>
 <img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Solution3.JPG" alt=""/>
-</detail>
+</details>
 
 ## TODO 4
 
