@@ -1,9 +1,6 @@
+Hi my name is [Èric Canela](https://www.linkedin.com/in/%C3%A8ric-canela-sol-6b7624158/) and I'm a student of 2nd Year of UPC Tech Talent Center from Barcelona under supervision of the lecturer [Ricard Pillosu](https://www.linkedin.com/in/ricardpillosu/?originalSubdomain=es), and today I will introduce you an interesting and useful guide about Static Analysis, for the 2nd Year Project subject, and I will explain why you should use it when developing any game or application.
 
-
-
-Hi my name is Èric Canela and I'm a student of UPC Tech Talent Center from Barcelona. Today I will introduce you an interesting and useful guide about Static Analysis, and explain why you should use it when developming any game or application.
-
-When we are developing a program there are a lot of pressure and sometimes the timelines are too heavy, and the developers can’t ensure a good quality on the code, creating more bugs and slowing down de current development. To ensure that this do not happen, exist some amazing tools to make it easier and avoid possible problems in the future.
+When we are developing a program there is a lot of pressure and sometimes the timelines are too heavy, and the developers can’t ensure a good quality on the code, creating more bugs and slowing down de current development. To ensure that this do not happen, exist some amazing tools to make it easier and avoid possible problems in the future.
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/StaticAnalysis.png" width="500px"/></div>
 
