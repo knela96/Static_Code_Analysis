@@ -136,11 +136,11 @@ These are some of the best tools you can find:
 <table>
 <tbody>
 <tr>
-<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Lint.jpg" alt="" width="120" /></td>
+<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Lint.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/helix.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/codesonar.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/visual.png" alt="" width="120" /></td>
-<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/goanna.jpg" alt="" width="120" /></td>
+<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/goanna.png" alt="" width="120" /></td>
 </tr>
 <tr>
 <td><em>PC-LINT</em></td>
@@ -161,7 +161,7 @@ These are some of the best tools you can find:
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/cpplint.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/Parasoft.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/eclipse.png" alt="" width="120" /></td>
-<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/frama.jpg" alt="" width="120" /></td>
+<td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/frama.png" alt="" width="120" /></td>
 <td><img src="https://raw.githubusercontent.com/knela96/Static-Code-Analysis/master/Images/clang.png" alt="" width="120" /></td>
 </tr>
 <tr>
