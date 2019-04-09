@@ -359,8 +359,8 @@ Configure the Cppcheck GUI version.
 
 ## TODO 2
 
-- Supress the error id **funcArgNamesDifferent** 
-- Supress the error **variableScope** from line **56** of the **j1Scene1.cpp** (Recommendation: Use absolute path)
+- Suppress the error id **funcArgNamesDifferent** 
+- Suppress the error **variableScope** from line **56** of the **j1Scene1.cpp** (Recommendation: Use absolute path)
 
 
 <details><summary>Solution</summary>
