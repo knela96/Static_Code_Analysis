@@ -191,7 +191,7 @@ Here are some basic tips for you, to select the best one for your project:
 
 # Static Analysis Tool
 
-We are going to use CppChecker as the static code analysis tool. This is because the low rate on finding possible false positives and negatives. But it is strongly recommended to use more than one, to detect all possible errors that one tool coldn't find.
+We are going to use CppChecker as the static code analysis tool. This is because the low rate on finding possible false positives and negatives. But it is strongly recommended to use more than one, to detect all possible errors that one tool couldn't find.
 
 We can use between two versions:
 
