@@ -263,7 +263,7 @@ Here you will see the suppressions that you have added:
    - __unreachableCode:*p2SString.h:155__ will hide this error from the file p2SString.h at the line 155.
    
 - **Files excluded from check:** This will deny the analyzer to scan the file.
-     -  __j1Input\.cpp$__ will exclude the file j1Input to be scanned.
+     -  __j1Input\ .cpp$__ will exclude the file j1Input to be scanned.
      _(IMPORTANT: headers not supported)_
 
 - **Excluded include paths:** Will exclude the path inserted, very useful for big libraries that don't need to be scanned and make the scan faster.
