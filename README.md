@@ -360,7 +360,8 @@ Configure the Cppcheck GUI version.
 ## TODO 2
 
 - Supress the error id **funcArgNamesDifferent** 
-- Supress the error **variableScope** from line **56** of the **j1Scene1.cpp**
+- Supress the error **variableScope** from line **56** of the **j1Scene1.cpp** (Recommendation: Use absolute path)
+
 
 <details><summary>Solution</summary>
 <img src="https://raw.githubusercontent.com/knela96/Static_Code_Analysis/master/Images/Solution2.JPG" alt=""/>
@@ -371,6 +372,8 @@ Configure the Cppcheck GUI version.
 
 - Exclude the path of PugiXml library
 - Exclude **j1App** files
+
+(Recommendation: Use absolute path)
 
 <details><summary>Solution</summary>
 <img src="https://raw.githubusercontent.com/knela96/Static_Code_Analysis/master/Images/Solution3.JPG" alt=""/>
